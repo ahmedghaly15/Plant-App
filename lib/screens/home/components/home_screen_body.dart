@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'package:plant_app/screens/home/components/recommended_plants.dart';
 import 'package:plant_app/screens/home/components/title_with_mote_button.dart';
 
 import 'header_with_search_box.dart';
@@ -18,6 +20,8 @@ class HomeScreenBody extends StatelessWidget {
             title: 'Recommended',
             onPressed: () {},
           ),
+          RecommendedPlants(size: size),
+          const TitleWithMoreButton(title: "Featured Plants"),
         ],
       ),
     );
