@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../shared/constants.dart';
+import '/shared/constants.dart';
 
 class IconCard extends StatelessWidget {
   final String icon;

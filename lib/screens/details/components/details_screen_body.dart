@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/models/plant_model.dart';
-import 'package:plant_app/screens/details/components/plant_details.dart';
 
+import '/models/plant_model.dart';
+import '/screens/details/components/plant_details.dart';
 import 'buy_and_description_buttons.dart';
 import 'image_and_icons.dart';
 

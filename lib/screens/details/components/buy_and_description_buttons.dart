@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../shared/constants.dart';
+import '/shared/constants.dart';
 
 class BuyAndDescriptionButtons extends StatelessWidget {
   const BuyAndDescriptionButtons({

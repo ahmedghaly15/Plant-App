@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/screens/home/home_screen.dart';
-import 'package:plant_app/shared/constants.dart';
+
+import '/screens/home/home_screen.dart';
+import '/shared/constants.dart';
 
 void main() => runApp(const PlantApp());
 
@@ -11,6 +12,7 @@ class PlantApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Plant App',
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,

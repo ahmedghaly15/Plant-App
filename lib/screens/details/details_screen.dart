@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/models/plant_model.dart';
-import 'package:plant_app/screens/details/components/details_screen_body.dart';
+
+import '/models/plant_model.dart';
+import '/screens/details/components/details_screen_body.dart';
 
 class DetailsScreen extends StatelessWidget {
   final PlantModel plant;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/screens/home/components/title_with_custom_underline.dart';
 
-import '../../../shared/constants.dart';
+import '/screens/home/components/title_with_custom_underline.dart';
+import '/shared/constants.dart';
 
 class TitleWithMoreButton extends StatelessWidget {
   final String title;

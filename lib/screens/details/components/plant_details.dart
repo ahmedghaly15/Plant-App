@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/models/plant_model.dart';
 
-import '../../../shared/constants.dart';
+import '/models/plant_model.dart';
+import '/shared/constants.dart';
 
 class PlantDetails extends StatelessWidget {
   final PlantModel plant;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../shared/constants.dart';
+import '/shared/constants.dart';
 import 'featured_plants_card.dart';
 
 class FeaturedPlants extends StatelessWidget {

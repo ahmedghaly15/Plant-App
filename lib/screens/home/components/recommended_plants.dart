@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/screens/details/details_screen.dart';
-import 'package:plant_app/screens/home/components/recommended_plant_card.dart';
 
-import '../../../shared/constants.dart';
+import '/shared/constants.dart';
+import '/screens/details/details_screen.dart';
+import '/screens/home/components/recommended_plant_card.dart';
 
 class RecommendedPlants extends StatelessWidget {
   const RecommendedPlants({

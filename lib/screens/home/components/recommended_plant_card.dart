@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../models/plant_model.dart';
-import '../../../shared/constants.dart';
+import '/models/plant_model.dart';
+import '/shared/constants.dart';
 
 class RecommendedPlantCard extends StatelessWidget {
   final PlantModel plant;

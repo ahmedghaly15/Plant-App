@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:plant_app/screens/home/components/recommended_plants.dart';
-import 'package:plant_app/screens/home/components/title_with_mote_button.dart';
-import 'package:plant_app/shared/constants.dart';
-
+import '/screens/home/components/recommended_plants.dart';
+import '/screens/home/components/title_with_mote_button.dart';
+import '/shared/constants.dart';
 import 'featured_plants.dart';
 import 'header_with_search_box.dart';
 
