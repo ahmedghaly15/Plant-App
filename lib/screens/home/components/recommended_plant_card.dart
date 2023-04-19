@@ -19,7 +19,6 @@ class RecommendedPlantCard extends StatelessWidget {
       // Cover 40% of our screen width
       width: size.width * 0.4,
       margin: const EdgeInsets.only(
-        left: kDefaultPadding,
         top: kDefaultPadding / 2,
         bottom: kDefaultPadding,
       ),

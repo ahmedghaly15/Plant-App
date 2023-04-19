@@ -29,3 +29,8 @@ List<PlantModel> recommendedPlants = [
     title: 'hazel',
   ),
 ];
+
+List<String> featuredPlants = [
+  'assets/images/bottom_img_1.png',
+  'assets/images/bottom_img_2.png',
+];
