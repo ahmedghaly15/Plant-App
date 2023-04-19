@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_app/screens/details/details_screen.dart';
 import 'package:plant_app/screens/home/components/recommended_plant_card.dart';
 
 import '../../../shared/constants.dart';
@@ -23,7 +24,19 @@ class RecommendedPlants extends StatelessWidget {
           physics: const BouncingScrollPhysics(),
           itemCount: recommendedPlants.length,
           itemBuilder: (context, index) {
-            return RecommendedPlantCard(plant: recommendedPlants[index]);
+            return RecommendedPlantCard(
+              plant: recommendedPlants[index],
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailsScreen(
+                      plant: recommendedPlants[index],
+                    ),
+                  ),
+                );
+              },
+            );
           },
           separatorBuilder: (context, index) {
             return const SizedBox(width: kDefaultPadding);

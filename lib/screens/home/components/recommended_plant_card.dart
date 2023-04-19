@@ -15,19 +15,19 @@ class RecommendedPlantCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Container(
-      // Cover 40% of our screen width
-      width: size.width * 0.4,
-      margin: const EdgeInsets.only(
-        top: kDefaultPadding / 2,
-        bottom: kDefaultPadding,
-      ),
-      child: Column(
-        children: <Widget>[
-          Image.asset(plant.image!),
-          GestureDetector(
-            onTap: onTap,
-            child: Container(
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        // Cover 40% of our screen width
+        width: size.width * 0.4,
+        margin: const EdgeInsets.only(
+          top: kDefaultPadding / 2,
+          bottom: kDefaultPadding,
+        ),
+        child: Column(
+          children: <Widget>[
+            Image.asset(plant.image!),
+            Container(
               padding: const EdgeInsets.all(kDefaultPadding / 2),
               decoration: BoxDecoration(
                 color: Colors.white,
@@ -71,8 +71,8 @@ class RecommendedPlantCard extends StatelessWidget {
                 ],
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
