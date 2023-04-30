@@ -15,7 +15,7 @@ class RecommendedPlants extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: size.height * 0.33,
+      height: size.height * 0.34,
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
         child: ListView.separated(

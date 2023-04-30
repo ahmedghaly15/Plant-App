@@ -15,7 +15,7 @@ class BuyAndDescriptionButtons extends StatelessWidget {
     return Row(
       children: <Widget>[
         SizedBox(
-          height: 79.35,
+          height: MediaQuery.of(context).size.height * 0.0773,
           width: size.width / 2,
           child: ElevatedButton(
             onPressed: () {},
